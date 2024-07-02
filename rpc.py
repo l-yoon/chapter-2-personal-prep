@@ -11,7 +11,6 @@ def rpc_game():
     while True:
         user_choice = input("가위,바위,보 중에 하나를 입력하세요:")
         comp_choice = random.choice(options)
-        print(comp_choice)
         # error value
         if user_choice not in options:
             print("옮바른 값을 입력하세요!")
